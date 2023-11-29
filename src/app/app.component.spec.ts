@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'super-calculator-ui'`, () => {
+  it(`should have as title 'angular-basecode-ui'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('super-calculator-ui');
+    expect(app.title).toEqual('angular-basecode-ui');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('super-calculator-ui app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-basecode-ui app is running!');
   });
 });

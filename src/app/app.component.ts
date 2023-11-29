@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'super-calculator-ui';
+  title = 'angular-basecode-ui';
 }
